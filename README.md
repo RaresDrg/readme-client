@@ -1,6 +1,14 @@
 <h1 align='center'>Frontend</h1>
 <br>
 
+<h2>Technologies</h2>
+<ul>
+  <li>React</li>
+  <li>TypeScript</li>
+  <li>Redux Toolkit</li>
+  <li>Styled Components</li>
+</ul>
+
 <h2>Deploy</h2>
 <ul>
   <li>
