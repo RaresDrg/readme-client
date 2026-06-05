@@ -170,3 +170,18 @@
     Font and media delivery are optimized through preconnect and DNS-prefetch directives, reducing latency for Google Fonts and Cloudinary assets.
   </li>
 </ul>
+
+<details>
+  <summary>Frontend Documentation</summary>
+
+  (aici bagi TOT frontend-ul)
+
+</details>
+
+<details>
+  <summary>Backend Documentation</summary>
+
+  (aici bagi TOT backend-ul + Auth & Session Management)
+
+</details>
+
