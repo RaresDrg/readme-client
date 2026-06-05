@@ -179,7 +179,7 @@
 </details>
 
 <details>
-  <summary>Backend Documentation</summary>
+ <summary><h2>Frontend Documentation</h2></summary>
 
   (aici bagi TOT backend-ul + Auth & Session Management)
 
