@@ -1,7 +1,7 @@
 ## Frontend
 <details>
-  <summary>Click to expand</summary>
+  <summary>Show details</summary>
 
-  (conținutul tău aici)
+  ... tot frontend-ul tău aici ...
 
 </details>
