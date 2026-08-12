@@ -15,7 +15,7 @@
     Render — hosting for the frontend as a static site.
   </li>
   <li>
-    API proxy forwards all <code>/api</code> requests to the backend, ensuring same‑origin communication and preventing third‑party cookie issues.
+    All <code>/api/*</code> requests are forwarded to the backend through a reverse proxy, ensuring same‑origin communication in production.
   </li>
   <li>
     SPA rewrite rules redirect all routes to <code>/index.html</code>, supporting client‑side routing.
