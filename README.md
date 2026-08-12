@@ -1,4 +1,4 @@
-<h1 align='center'>Frontend documentation</h1>
+<h1 align='center'>Frontend Documentation</h1>
 <br>
 
 <h2>Technologies</h2>
