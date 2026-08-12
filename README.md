@@ -18,6 +18,15 @@
     All <code>/api/*</code> requests are forwarded to the backend through a reverse proxy, ensuring same‑origin communication in production.
   </li>
   <li>
+    Reverse proxy forwards all <code>/api/*</code> requests to the backend, allowing the frontend to serve them under the same origin.
+  </li>
+  <li>
+    Reverse proxy forwards all <code>/api/*</code> requests to the backend, allowing the frontend to serve them under the same origin.
+  </li>
+  <li>
+    API proxy forwards all <code>/api</code> requests to the backend, ensuring same‑origin communication and preventing third‑party cookie issues.
+  </li>
+  <li>
     SPA rewrite rules redirect all routes to <code>/index.html</code>, supporting client‑side routing.
   </li>
 </ul>
