@@ -21,7 +21,7 @@
     Reverse proxy forwards all <code>/api/*</code> requests to the backend, allowing the frontend to serve them under the same origin.
   </li>
   <li>
-    Reverse proxy forwards all <code>/api/*</code> requests to the backend, allowing the frontend to serve them under the same origin.
+    Reverse proxy forwards all <code>/api/*</code> requests to the backend, ensuring same‑origin communication.
   </li>
   <li>
     API proxy forwards all <code>/api</code> requests to the backend, ensuring same‑origin communication and preventing third‑party cookie issues.
