@@ -25,7 +25,7 @@
 <h2>Setup</h2>
 <ul>
   <li>
-      Vite — provides fast project setup and optimized production builds.  
+    Vite — provides fast project setup and optimized production builds.  
   </li>
   <li>
     TypeScript config — enforces strict type‑checking and improves project stability.
