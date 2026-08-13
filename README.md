@@ -48,7 +48,7 @@
   </li>
 
   <li>
-    Core layers are organized using a technical‑based folder structure, keeping related logic grouped in a predictable and intuitive way.
+    Core logic is organized using a responsibility‑based folder structure, with related functionality grouped consistently.
   </li>
   <li>
     Barrel files centralize exports, providing consistent and straightforward access to modules within the project.
