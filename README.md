@@ -44,15 +44,12 @@
     The architecture follows a clean, modular structure with a clear separation of concerns across the application.
   </li>
   <li>
-    Core logic is organized using a responsibility‑based folder structure, with related functionality grouped consistent.
-  </li>
-
-  <li>
-    Core logic is organized using a responsibility‑based folder structure, with related functionality grouped consistently.
+    Core logic is structured in responsibility‑based folders, with related functionality grouped consistently.
   </li>
   <li>
-    Barrel files centralize exports, providing consistent and straightforward access to modules within the project.
+    Barrel files centralize exports, providing consistent and straightforward access to modules within each folder.
   </li>
+  <li></li>
   <li>
     Global UI elements — modals, loaders, notifications — are mounted through dedicated portal roots to avoid interfering with the main layout, and they operate independently from the route‑level rendering tree.
   </li>
