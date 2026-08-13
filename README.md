@@ -24,6 +24,8 @@
   </li>
 </ul>
 
+<br>
+
 <h2>Setup</h2>
 <ul>
   <li>
