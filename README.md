@@ -44,6 +44,10 @@
     The architecture follows a clean, modular structure with a clear separation of concerns across the application.
   </li>
   <li>
+    Core logic is organized using a responsibility‑based folder structure, keeping related functionality grouped in a predictable and intuitive way.
+  </li>
+
+  <li>
     Core layers are organized using a technical‑based folder structure, keeping related logic grouped in a predictable and intuitive way.
   </li>
   <li>
