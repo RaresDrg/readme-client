@@ -9,22 +9,18 @@
   <li>Styled Components</li>
 </ul>
 
-<br>
-
 <h2>Deploy</h2>
 <ul>
   <li>
     Render — hosting for the frontend as a static site.
   </li>
   <li>
-    All <code>/api/*</code> requests are forwarded to the backend via reverse proxy, ensuring same‑origin communication.
+    All <code>/api/*</code> requests are forwarded to the backend via reverse proxy to ensure same‑origin communication.
   </li>
   <li>
-    All non‑API routes are rewritten to <code>/index.html</code>, enabling client‑side routing in the SPA.
+    All non‑API routes are rewritten to <code>/index.html</code> to enable client‑side routing in the SPA.
   </li>
 </ul>
-
-<br>
 
 <h2>Setup</h2>
 <ul>
@@ -32,7 +28,7 @@
     Vite — provides fast project setup and optimized production builds.  
   </li>
   <li>
-    TypeScript config — enforces strict type‑checking and improves project stability.
+    TypeScript config — enforces strict type‑checking and improves project stabilit
   </li>
   <li>
     ESLint config — maintains reliable linting rules and consistent code quality.
@@ -51,7 +47,7 @@
     Core layers are organized using a technical‑based folder structure, keeping related logic grouped in a predictable and intuitive way.
   </li>
   <li>
-    Barrel files centralize exports, ensuring consistent and straightforward access to modules within the project.
+    Barrel files centralize exports, providing consistent and straightforward access to modules within each layer.
   </li>
   <li>
     Global UI elements — modals, loaders, notifications — are mounted through dedicated portal roots to avoid interfering with the main layout, and they operate independently from the route‑level rendering tree.
