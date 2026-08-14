@@ -18,10 +18,7 @@
     All <code>/api/*</code> requests are forwarded to the backend via reverse proxy to ensure same‑origin communication.
   </li>
   <li>
-    All <code>/api/*</code> requests are forwarded to the backend via reverse proxy, ensuring same‑origin communication.
-  </li>
-  <li>
-    All non‑API routes are rewritten to <code>/index.html</code>, enabling the SPA to manage client‑side routing.
+    All non-API routes are rewritten to <code>/index.html</code>, enabling the SPA to handle client-side routing.
   </li>
 </ul>
 
