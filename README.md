@@ -49,12 +49,11 @@
   <li>
     Barrel files centralize exports, providing consistent and straightforward access to modules within each folder.
   </li>
-  <li></li>
   <li>
     Global UI elements — modals, loaders, notifications — are mounted through dedicated portal roots to avoid interfering with the main layout, and they operate independently from the route‑level rendering tree.
   </li>
   <li>
-    Responsive Context — a global context exposes device type and pixel density, allowing components to adapt layout, assets, and behavior dynamically.
+    Responsive context — a global context exposes device type and pixel density, allowing components to adapt layout, assets, and behavior dynamically.
   </li>
 </ul>
 
@@ -169,5 +168,9 @@
   </li>
   <li>
     Font and media delivery are optimized through preconnect and DNS-prefetch directives, reducing latency for Google Fonts and Cloudinary assets.
+  </li>
+  <li></li>
+  <li>
+    Preconnect and DNS-prefetch directives optimize connection setup for Google Fonts and Cloudinary assets.
   </li>
 </ul>
