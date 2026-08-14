@@ -15,6 +15,9 @@
     Render — hosting for the frontend as a static site.
   </li>
   <li>
+    All <code>/api/*</code> requests are forwarded to the backend via reverse proxy to ensure same‑origin communication.
+  </li>
+  <li>
     All <code>/api/*</code> requests are forwarded to the backend via reverse proxy, ensuring same‑origin communication.
   </li>
   <li>
