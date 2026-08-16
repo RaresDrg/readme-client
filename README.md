@@ -135,6 +135,9 @@
 <h2>State Management</h2>
 <ul>
   <li>
+    State management follows a domain‑based structure, where each feature exposes its own slice, actions, and selectors.
+  </li>
+  <li>
     Redux — manages the application’s global state in a centralized way.
   </li>
   <li>
