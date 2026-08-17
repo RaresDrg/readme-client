@@ -44,13 +44,13 @@
     The architecture follows a clean, modular structure with a clear separation of concerns across the application.
   </li>
   <li>
-    Core logic is structured in responsibility‑based folders, with related functionality grouped consistently.
+    Core layers are organized in responsibility‑based folders, keeping related functionality logically separated.
   </li>
   <li>
-    Barrel files centralize exports, providing consistent and straightforward access to modules within each folder.
+    Barrel files centralize exports, providing consistent and straightforward access to modules within each layer.
   </li>
   <li>
-    Global UI elements — modals, loaders, notifications — are mounted through dedicated portal roots to avoid interfering with the main layout, and they operate independently from the route‑level rendering tree.
+    Global UI elements — modals, loaders, notifications — operate independently from the route‑level rendering tree and are mounted through dedicated portal roots to prevent interference with the main layout.
   </li>
   <li>
     Responsive context — a global context exposes device type and pixel density, allowing components to adapt layout, assets, and behavior dynamically.
@@ -122,45 +122,42 @@
     The project runs as a Single Page Application, with React Router managing all client‑side navigation.
   </li>
   <li>
-    Restricted Routes — pages accessible only when the user is not authenticated, with a redirect guard preventing access once a session is active.
+    Restricted routes — pages accessible only when the user is not authenticated, with a redirect guard preventing access once a session is active.
   </li>
   <li>
-    Protected Routes — core application pages become available only after authentication, and unauthorized access is automatically redirected to the login flow.
+    Protected routes — core application pages become available only after authentication, and unauthorized access is automatically redirected to the login flow.
   </li>
   <li>
-    Fallback Route — any unmatched path is routed to a dedicated Not Found page, ensuring consistent handling of invalid URLs.
+    Fallback route — any unmatched path is routed to a dedicated Not Found page, ensuring consistent handling of invalid URLs.
   </li>
 </ul>
 
 <h2>State Management</h2>
 <ul>
   <li>
-    State management follows a domain‑based structure, where each feature exposes its own slice, actions, and selectors.
-  </li>
-  <li>
-    Redux — manages the application’s global state in a centralized way.
+    Redux — manages the application’s global state in a predictable and centralized way.
   </li>
   <li>
     Redux Toolkit — simplifies the Redux setup with slice‑based logic and reduced boilerplate.
   </li>
   <li>
-    Redux Persist — persists the application state across sessions and page reloads.
+    Redux Persist — preserves the application state across page reloads.
   </li>
 </ul>
 
 <h2>API Layer</h2>
 <ul>   
   <li>
-    The API layer operates through an Axios instance that handles all backend requests, configured with a baseURL and credential support for authenticated communication.
+    The API Layer is built on a dedicated Axios client instance that centralizes all communication with the backend.
   </li>
   <li>
-    Request Interceptor — looks for a session token in session storage and, if present, includes it in the Authorization header as a Bearer token.
+    Request interceptor — looks for the session token in session storage and attaches it to the Authorization header as a Bearer token.
   </li>
   <li>
-    Response Interceptor — stores the session token if the server returns one and triggers an automatic logout when a 401 error occurs.
+    Response interceptor — stores the session token when the server returns one and triggers an automatic logout when a 401 error occurs.
   </li>
   <li>
-    Session Logic — the server issues secure HTTP‑Only cookies to handle authentication and assigns each browser tab a unique session identifier, ensuring a single active session per user and proper isolation across tabs.
+    Session logic — the server issues secure HTTP‑Only cookies to handle authentication and assigns each browser tab a unique session identifier, ensuring a single active session per user and proper isolation across tabs.
   </li>
 </ul>
 
