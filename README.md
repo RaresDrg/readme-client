@@ -60,19 +60,20 @@
 <h2>UX & Accessibility</h2>
 <ul>
   <li>
+    Notifications — instant feedback makes the experience more predictable and reduces uncertainty during user actions.
+  </li>
+  <li>
+    Animations — motion patterns enhance visual perception and create more dynamic, engaging interactions.
+  </li>
+  <li>
+    Transitions — smooth state changes preserve a fluid, natural interface flow.
+  </li>
+  <li></li>
+  <li>
     LQIP Approach — blurred low‑quality previews improve perceived loading speed and provide a smoother visual transition.
   </li>
   <li>
     Loading indicators integrated throughout the interface clarify ongoing processes and keep the experience predictable.
-  </li>
-  <li>
-    Notifications deliver immediate feedback for key user actions, helping maintain clarity and reducing uncertainty.
-  </li>
-  <li>
-    Transitions shape a smoother interaction flow and keep the interface fluid and natural.
-  </li>
-  <li>
-    Animations enhance visual perception and make interactions feel more dynamic and engaging.
   </li>
   <li>
     Semantic roles and live regions are applied across the interface to ensure proper announcements and accessible navigation for assistive technologies.
@@ -91,10 +92,14 @@
 <h2>UI & Styling</h2>
 <ul>
   <li>
-    Styling is managed with styled‑components, providing predictable behavior, clean component structure, and scoped styles. 
+    Cross‑browser compatibility — a unified styling baseline built on modern‑normalize, refined global reset rules, and targeted vendor prefixes for uniform rendering across major browsers.
   </li>
   <li>
-    Cross‑browser compatibility is achieved through modern‑normalize, custom reset rules, and manual vendor prefixes for consistent rendering across browsers.
+    Sprite technique — all vector icons are consolidated into a single SVG sprite to reduce network requests and keep icon management consistent and efficient.
+  </li>
+  <li></li>
+  <li>
+    Styling is managed with styled‑components, providing predictable behavior, clean component structure, and scoped styles. 
   </li>
   <li>
     Responsive Design — built on a mobile‑first foundation, the interface adapts seamlessly across devices and screen sizes.
@@ -165,9 +170,6 @@
 <ul>
   <li>
     Local caching applies user ownership and TTL‑based invalidation to maintain fresh, isolated, and reliable client‑side data.
-  </li>
-  <li>
-    Font and media delivery are optimized through preconnect and DNS-prefetch directives, reducing latency for Google Fonts and Cloudinary assets.
   </li>
   <li></li>
   <li>
